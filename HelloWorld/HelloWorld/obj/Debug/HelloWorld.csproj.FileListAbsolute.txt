@@ -1,0 +1,6 @@
+\\10.1.37.5\国住共享文件夹\国住设计区\设计共享区\BIM项目\GuoZhu_Revit_Solution\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll
+\\10.1.37.5\国住共享文件夹\国住设计区\设计共享区\BIM项目\GuoZhu_Revit_Solution\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+\\10.1.37.5\国住共享文件夹\国住设计区\设计共享区\BIM项目\GuoZhu_Revit_Solution\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
+\\10.1.37.5\国住共享文件夹\国住设计区\设计共享区\BIM项目\GuoZhu_Revit_Solution\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+\\10.1.37.5\国住共享文件夹\国住设计区\设计共享区\BIM项目\GuoZhu_Revit_Solution\HelloWorld\HelloWorld\obj\Debug\HelloWorld.dll
+\\10.1.37.5\国住共享文件夹\国住设计区\设计共享区\BIM项目\GuoZhu_Revit_Solution\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
