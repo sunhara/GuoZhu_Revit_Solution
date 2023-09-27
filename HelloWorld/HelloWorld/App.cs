@@ -11,7 +11,7 @@ using Autodesk.Revit.UI.Selection;
 using Autodesk.Revit.DB.Architecture;
 using System.Reflection;
 
-namespace ShowDialog
+namespace ribbon_and_tab
 {
      class App : IExternalApplication
     {
@@ -21,14 +21,23 @@ namespace ShowDialog
             string panelname = "tutorial";
 
             //Creating the tab
+            application.CreateRibbonTab(tabname);
+            //Creating the panel
             var panel = application.CreateRibbonPanel(tabname, panelname);
-            var button1 = new PushButtonData("", "", "", "");
+            //Creating the buttons
+            var button1 = new PushButtonData("button1_internalName", "User_visibleName", Assembly.GetExecutingAssembly().Location, "HelloWorld.ShowDialog");
+
+            button1.ToolTip = "Here for tooltip";
+            button1.LongDescription = "This is a long version description";
+
+            var btn1 = panel.AddItem(button1) as PushButton;
+
 
             return Result.Succeeded;
         }
 
 
-        public Result OnStartup(UIControlledApplication application)
+        public Result OnShutdown(UIControlledApplication application)
         {
 
             return Result.Succeeded;
